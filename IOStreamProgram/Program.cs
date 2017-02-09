@@ -48,7 +48,7 @@ namespace IOStreamProgram
                 //Creating instance of StreamWriter
                 //Writes data from string[] to file temp.txt
                 //using statement also closes StreamWiter
-                using (StreamWriter sw = new StreamWriter("temp.txt"))
+                using (StreamWriter sw = new StreamWriter("temp.txt", true))
                 {
                     foreach (string s in str)
                     {
